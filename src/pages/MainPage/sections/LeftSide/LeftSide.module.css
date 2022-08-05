@@ -1,0 +1,37 @@
+.logo {
+  font-weight: 700;
+  font-size: 32px;
+  font-style: italic;
+  color: #e49b08;
+  text-decoration: none;
+  align-self: flex-start;
+  margin-bottom: 50px;
+}
+
+.logo:hover {
+  color: #e49b08;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-weight: 700
+}
+
+.title > span {
+  font-style: italic;
+}
+
+.wrapper {
+  margin-bottom: 30px
+}
+
+.StoreButton {
+  margin-right: 10px;
+}

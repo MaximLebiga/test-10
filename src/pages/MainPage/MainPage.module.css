@@ -1,0 +1,24 @@
+
+.container {
+  display: flex;
+  background-color: #f1efeb;
+  height: 100vh;
+}
+
+.left_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 50%;
+  padding-bottom: 15%;
+}
+
+.right_side {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  width: 50%;
+  padding-bottom: 15%;
+}

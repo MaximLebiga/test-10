@@ -1,0 +1,32 @@
+.button {
+  align-items: center;
+  position: relative;
+  background-color: #3163eb;
+  padding: 5px;
+  border: none;
+  border-radius: 10px;
+  height: 62px;
+  color: #FFFFFF;
+  width: 100%;
+  display: flex;
+}
+
+.text_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.icon {
+  background-color: #FFFFFF;
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.text_main {
+  font-weight: 600;
+}
+
+.text_secondary {
+  font-weight: 300;
+}

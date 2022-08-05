@@ -1,0 +1,20 @@
+.carousel-indicators {
+  bottom: -50px;
+}
+
+.carousel-inner {
+  border-radius: 20px;
+  box-shadow: 0 0 10px #e29b09;
+}
+
+.carousel-indicators button {
+  border: 1px solid transparent !important;
+  border-radius: 20px !important;
+  height: 20px !important;
+  width: 20px !important;
+  background-color: #d6c9b9 !important;
+}                                                  
+                                                               
+.carousel-indicators .active {
+  background-color: #A91D2A !important;
+}

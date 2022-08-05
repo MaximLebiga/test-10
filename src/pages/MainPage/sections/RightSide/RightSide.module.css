@@ -1,0 +1,83 @@
+.title {
+  color: #e49b08;
+  font-style: italic;
+}
+
+.content {
+  margin-left: 140px;
+  margin-bottom: 60px;
+}
+
+.text {
+  font-size: 22px;
+  margin-bottom: 40px
+}
+
+.privacyText {
+  color: #8f8f8c;
+  margin-bottom: 30px;
+}
+
+.privacyText > a {
+  color: #8f8f8c
+}
+
+.wrapper {
+  max-width: 300px;
+  width: 100%;
+}
+
+.benefits_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits_google {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits_cc {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits_google_span {
+  font-size: 12px
+}
+
+.benefits_cc_span {
+  font-size: 12px
+}
+
+.benefits_google_span span:nth-child(1) {
+  color: #3163eb
+}
+
+.benefits_google_span span:nth-child(2) {
+  color: red
+}
+
+.benefits_google_span span:nth-child(3) {
+  color: yellow
+}
+
+.benefits_google_span span:nth-child(4) {
+  color: #3163eb
+}
+
+.benefits_google_span span:nth-child(5) {
+  color: green
+}
+
+.benefits_google_span span:nth-child(6) {
+  color: red
+}
+
+.StoreButton {
+  margin-left: 10px;
+}
+
+.login_button {
+  margin-bottom: 40px;
+}
