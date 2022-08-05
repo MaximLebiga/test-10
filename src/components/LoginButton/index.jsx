@@ -1,9 +1,9 @@
 import { ReactComponent as GoogleIcon } from "../../icons/google.svg"
 import style from "./LoginButton.module.css"
 
-const LoginButton = ({ extraStyles }) => {
+const LoginButton = ({ extraStyles, onClick }) => {
   return (
-    <button className={`${style.button} ${extraStyles}`}>
+    <button className={`${style.button} ${extraStyles}`} onClick={onClick}>
       <GoogleIcon className={style.icon} width={49} />
       <span className={style.text_wrapper}>
         <span className={style.text_main}>Continue with Google</span>
